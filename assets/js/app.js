@@ -14,10 +14,13 @@ var zubizi = {
     }
 };
 zubizi.greetUser();
+var reloadTime = (60 - new Date().getSeconds()) * 1000;
+
 setInterval(function() {
     $('.current-time').text(moment().format('LT'));
     zubizi.greetUser();
-}, 1000);
+    reloadTime = (60 - new Date().getSeconds()) * 1000;
+}, reloadTime);
 (function() {
     var greet_name;
     if (localStorage.greet_name) {
