@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Zubizi",
+    "description": "Zubizi Chrome Ext",
+    "version": "1",
+    "author": "Sariful Islam",
+    "browser_action":
+    {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png",
+        "default_title": "Have a good day"
+    },
+    "chrome_url_overrides":
+    {
+        "newtab": "newtab.html"
+    },
+    "permissions": ["activeTab", "storage", "alarms", "tabs", "notifications"],
+    "background":
+    {
+        "scripts": ["assets/js/background.js"],
+        "persistent": false
+    }
+}
