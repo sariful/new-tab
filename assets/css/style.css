@@ -15,7 +15,7 @@ body {
 }
 
 .center-img {
-	height: 3em;
+	/* height: 5em; */
 }
 
 .greet_name {
@@ -23,32 +23,38 @@ body {
 }
 
 .center-img-wrapper {
-	position: absolute;
-	bottom: 2em;
-	right: 19em;
-	transform: translate(-50%);
-	padding: 1.5em;
-	background: #fff;
-	border-radius: 50%;
-	box-shadow: 0 0 10px -2px #000;
+	/* position: absolute; */
+	/* bottom: 2em; */
+	/* right: 19em; */
+	/* transform: translate(-50%); */
+	/* padding: 1.5em; */
+	/* background: #fff; */
+	/* border-radius: 50%; */
+	/* box-shadow: 0 0 10px -2px #000; */
+}
+
+.zubizi-brand {
+    position: absolute;
+    bottom: 2em;
+    right: 3em;
+    width: 30em;
 }
 
 .zubizi-text {
 	font-size: 1.7em;
-	position: absolute;
-	bottom: 2.5em;
-	right: 2em;
+	/* position: absolute; */
+	/* bottom: 2.5em; */
+	/* right: 2em; */
 	font-weight: bold;
 	/*transform: translate(-50%);*/
 }
 
 .zubizi-sub-text {
 	font-size: 1em;
-	position: absolute;
-	bottom: 2em;
-	right: 5em;
+	/* position: absolute; */
+	/* bottom: 2em; */
+	/* right: 5em; */
 	/*font-weight: bold;*/
-
 }
 
 .text-center {
